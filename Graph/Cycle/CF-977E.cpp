@@ -12,7 +12,7 @@ bool dfs(vector<vector<int>> &adj, int node, vector<int> &visited){
             if(!dfs(adj, nei, visited)) indeg2 =  false;
         }
     }
-    return indeg2 ? true : false;
+    return indeg2;
 }
 
 int main(){
