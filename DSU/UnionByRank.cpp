@@ -29,3 +29,5 @@ void Union(int x, int y){
         rank[y_parent]++;
     }
 }
+
+//this.lop
